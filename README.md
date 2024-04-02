@@ -201,7 +201,7 @@ user management.
   ```
 
 ### Swagger UI
-- The API documentation can be accessed using Swagger UI. Visit /swagger-ui.html after running the application to explore the available endpoints.
+- The API documentation can be accessed using Swagger UI. Visit http://localhost:8080/swagger-ui/index.html after running the application to explore the available endpoints.
 
 ### JWT Token
 - JWT (JSON Web Token) is required for authentication in all endpoints except user registration and login. Pass the JWT token in the Authorization header with the value Bearer <JWT_TOKEN> for authentication.
@@ -215,7 +215,7 @@ user management.
 ### Instructions
 - Build the application with `mvn clean install`
 - Run the application with `mvn spring-boot:run`
-- Open http://localhost:8080/swagger-ui.html in your browser
+- Open http://localhost:8080/swagger-ui/index.html in your browser
 - Enter the JWT token in the Authorization header
 - Enter the required data in the request body
 - Click on the submit button
